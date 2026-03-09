@@ -23,7 +23,7 @@ const testimonials = [
     name: 'Karthik Menon',
     role: 'Business Owner',
     image: 'https://images.unsplash.com/photo-1734189605012-f03d97a4d98f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=200',
-    rating: 5,
+    rating: 4,
     text: 'From day one, I felt welcomed and supported. The community here is amazing, and the results speak for themselves. Highly recommend!'
   },
   {

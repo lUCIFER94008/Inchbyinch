@@ -304,7 +304,7 @@ export function Contact() {
           Designed by{" "}
           <a
             href="https://r7-olive.vercel.app/"
-            target="self"
+            target="_blank"
             rel="noopener noreferrer"
             className="text-[#FFD200] hover:text-[#FFE766] cursor-pointer hover:underline transition"
           >
