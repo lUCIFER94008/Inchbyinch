@@ -6,7 +6,7 @@ interface UseInViewOptions {
 }
 
 export function useInView(
-  ref: RefObject<Element>,
+  ref: RefObject<HTMLElement | null>,
   { once = false, amount = 0 }: UseInViewOptions = {}
 ): boolean {
   const [isInView, setIsInView] = useState(false);

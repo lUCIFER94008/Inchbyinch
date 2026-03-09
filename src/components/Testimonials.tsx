@@ -7,6 +7,7 @@ import { Star, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 const testimonials = [
   {
     name: 'Fasila Beegum',
+    role: 'Entrepreneur',
     image: 'https://images.unsplash.com/photo-1759300642261-6a1dcd0d19f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=200',
     rating: 5,
     text: 'One of the best gym. In kaloor.Good service with friendly staff and super clean and comfortable gym......'
@@ -35,7 +36,7 @@ const testimonials = [
 ];
 
 export function Testimonials() {
-  const ref = useRef(null);
+  const ref = useRef<HTMLElement>(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(0);
@@ -43,7 +44,7 @@ export function Testimonials() {
   useEffect(() => {
     const timer = setInterval(() => {
       setDirection(1);
-      setCurrentIndex((prev) => (prev + 1) % testimonials.length);
+      setCurrentIndex((prev: number) => (prev + 1) % testimonials.length);
     }, 5000);
 
     return () => clearInterval(timer);
@@ -66,7 +67,7 @@ export function Testimonials() {
 
   const paginate = (newDirection: number) => {
     setDirection(newDirection);
-    setCurrentIndex((prev) => (prev + newDirection + testimonials.length) % testimonials.length);
+    setCurrentIndex((prev: number) => (prev + newDirection + testimonials.length) % testimonials.length);
   };
 
   return (
