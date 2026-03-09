@@ -300,16 +300,16 @@ export function Contact() {
           © 2026 Inch By Inch Fitness. All rights reserved.
         </p>
         <p className="text-gray-500 text-sm mt-1">
-          Designed by{" "}
-          <a
-            href="https://r7-olive.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#FFD200] hover:text-[#FFE766]"
-          >
-            R7
-          </a>
-        </p>
+  Designed by{" "}
+  <a
+    href="https://r7-olive.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[#FFD200] hover:text-[#FFE766]"
+  >
+    R7
+  </a>
+</p>
       </motion.div>
     </section>
   );
