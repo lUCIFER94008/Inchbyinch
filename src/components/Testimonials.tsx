@@ -5,18 +5,17 @@ import { Star, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'Arjun Nair',
-    role: 'Software Engineer',
+    name: 'Fasila Beegum',
     image: 'https://images.unsplash.com/photo-1759300642261-6a1dcd0d19f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=200',
     rating: 5,
-    text: 'Inch By Inch Fitness completely transformed my life. The trainers are incredibly knowledgeable and the facility is world-class. I lost 20kg in 5 months!'
+    text: 'One of the best gym. In kaloor.Good service with friendly staff and super clean and comfortable gym......'
   },
   {
-    name: 'Priya Krishnan',
+    name: 'Shijaas KM,
     role: 'Entrepreneur',
-    image: 'https://images.unsplash.com/photo-1739430548335-6b3e76ddbd10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=200',
+    image: 'https://lh3.googleusercontent.com/a-/ALV-UjVsUbyGK_6O4OO5ibQ4_1N2Bh_qELW0FS01g5ohhOFmND2jxrZ0=w45-h45-p-rp-mo-br100',
     rating: 5,
-    text: 'Best gym in Kerala! The personal training sessions are worth every penny. The attention to detail and personalized approach is unmatched.'
+    text: 'Best gym in town ...friendly trainers nd good ambience for workout 💪🏻.'
   },
   {
     name: 'Karthik Menon',
