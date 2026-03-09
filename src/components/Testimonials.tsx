@@ -1,3 +1,4 @@
+import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useRef, useState, useEffect } from 'react';
 import { useInView } from '../hooks/useInView';
