@@ -11,7 +11,7 @@ const testimonials = [
     text: 'One of the best gym. In kaloor.Good service with friendly staff and super clean and comfortable gym......'
   },
   {
-    name: 'Shijaas KM,
+    name: 'Shijaas KM',
     role: 'Entrepreneur',
     image: 'https://lh3.googleusercontent.com/a-/ALV-UjVsUbyGK_6O4OO5ibQ4_1N2Bh_qELW0FS01g5ohhOFmND2jxrZ0=w45-h45-p-rp-mo-br100',
     rating: 5,
